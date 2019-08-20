@@ -8,7 +8,7 @@
 $ sudo apt-get install -y python3 python3-venv
 
 $ python3 -m venv flaskrestapienv
-$ . test/bin/activate
+$ . flaskrestapienv/bin/activate
 # $ flaskrestapienv\Scripts\activate # Windowsの場合
 
 $ pip install flask flask_cors SQLAlchemy psycopg2 flask-sqlalchemy Flask-Migrate
